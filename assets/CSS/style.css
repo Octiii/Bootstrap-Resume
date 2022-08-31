@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+}
+/* -------------- Special paddings/margins/text*/
+h1,h2,h3,h4 {
+  margin:0;
+}
+
+.uppercase {
+  text-transform:uppercase;
+}
+
+.general-sub {
+  font-family: "Exo" , sans-sherif;
+  font-weight: 300;
+  color: #fafafa;
+}
+
+/*------------- Footer */
+footer {
+  background-color:#004466 ;
+  color: #fafafa;
+  min-height: 120px;
+}
+
+
+/* ------------------ Heading */
+.heading {
+  margin-left: 50px;
+}
+
+header {
+  margin:0;
+}
+
+.list-inline-item:not(:last-child) {
+  margin:0;
+}
+/* -------------------------------------- Logo*/
+.logo{
+  background: url("../Images/ppic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 480px;
+  transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+}
+/* -------------------------- Color*/
+.bg-color-name-title{
+  background-color: #004466 ;
+  color:white;
+  height: 66.6%;
+}
+
+.bg-color-three-reasons {
+  background-color: #fff;
+}
+
+.ui-menu-color-home {
+  background-color: #e67e22;
+}
+
+.ui-menu-color-resume {
+  background-color: #9b59b6;
+}
+
+.ui-menu-color-contact {
+  background-color: #3498db;
+}
+
+.ui-menu-color-download {
+  background-color: #525252;
+}
+
+.name {
+  font-family:"Exo", sans-serif ;
+  font-weight: 100;
+  font-size: 46px;
+  margin-top: 50px;
+  color: white;
+}
+
+.title {
+  font-family: "Roboto", sans-sherif;
+  font-weight: 200;
+  font-size: 28px;
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
+
+.menucontainer {
+  font-size: 0;
+}
+
+#nav {
+  margin: 0;
+}
+
+#nav li {
+  font-size: 14px;
+  padding:0;
+}
+
+.menuitem {
+  height:160px;
+  text-align: center;
+  padding: 0;
+}
+
+.menuitem a {
+  width: 100%;
+  text-decoration: none;
+  color:white;
+  height:160px;
+}
+
+.menuitem a i {
+  padding-top:22px;
+  display: block;
+  color: #fafafa;
+  font-size: 26px;
+}
+
+.menuitem span {
+  display: block;
+  width: 100%;
+  padding-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+.hvr-sweep-to-bottom:before {
+  background: rgba(0, 0, 0, 0.2) !important;
+  height: 160px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.cv-pdf i {
+  font-size: 18px;
+  color: #fafafa;
+  text-align:center;
+  padding-left: 5px; 
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+  color: #e84610;
+}
+
+.social-links {
+  padding-bottom: 15px;
+}
+
+.social-links li a i { 
+  width: 32px ;
+  height: 32px;
+  padding: 12px 0; 
+  border-radius: 50%;
+  font-size:13px;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background-color: #8f8f8f;
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover { 
+  background-color: #cccc00;
+}
+
+#footer-details {
+  padding:20px;
+}
+/* ----------- Three resons section*/
+.row-table {
+  display: table;
+}
+
+.section-column {
+  display: table-cell;
+  padding: 0 30px 30px;
+  float: none;
+}
+
+.section-heading {
+  font-family: "Exo" , sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
