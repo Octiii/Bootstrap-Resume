@@ -172,11 +172,11 @@ header {
   color: #e84610;
 }
 
-.social-links {
+.social-linkss {
   padding-bottom: 15px;
 }
 
-.social-links li a i { 
+.social-linkss li a i { 
   width: 32px ;
   height: 32px;
   padding: 12px 0; 
@@ -192,7 +192,7 @@ header {
   -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover { 
+.social-linkss li a i:hover { 
   background-color: #cccc00;
 }
 
