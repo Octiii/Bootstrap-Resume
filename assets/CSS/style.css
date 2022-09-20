@@ -73,6 +73,10 @@ header {
   background-color: #fff;
 }
 
+.ui-menu-color-intrests {
+  background-color: #e60000 ;
+}
+
 .ui-menu-color-home {
   background-color: #e67e22;
 }
